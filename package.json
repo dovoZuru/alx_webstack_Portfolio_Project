@@ -1,0 +1,28 @@
+{
+  "name": "basic-bank-versioned-api",
+  "version": "1.0.0",
+  "description": "A basic bank versioned API with the ability to signup, sign in, and initiate transfers between accounts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.9.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.2",
+    "nodemon": "^3.0.1",
+    "redis": "^4.6.7",
+    "uuid": "^9.0.0",
+    "yarn": "^1.22.19"
+  }
+}
